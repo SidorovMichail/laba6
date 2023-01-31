@@ -19,23 +19,23 @@ if (empty($_SESSION['logged'])) {
     <div class = "container">
 
       <div class="nav">
-        
+
           <a href="/">
           <img src="/img/logo.png" class="logo">
           </a>
           <img src="/img/loc.png" class = "loc">
           <p class = "city">Липецк </p>
-        
+
           <ul class = "menu">
-            
+
             <li><a href="/">
                 Главная
               </a>
-            </li> 
+            </li>
             <li><a href="/place">
                 Разместить объявление
               </a>
-            </li>   
+            </li>
 
             <li>
               <p class="name"> Здравствуйте, <?php  echo $params['data']['name']?></p>
@@ -44,14 +44,14 @@ if (empty($_SESSION['logged'])) {
               <form method = 'POST' action="/exit">
               <button type='submit' name = 'but_exit' value = 'exit' id = 'Button_Exit' style = "margin-top: 17px;">Выход</button>
             </form>
-            </li>   
+            </li>
           </ul>
-        
+
           <button class="menu-open">
               <img src="../public/img/menu.svg">
           </button>
        </div>
-    </div>    
+    </div>
   </header>
 
   <section class = "ind3">
@@ -73,7 +73,7 @@ if (empty($_SESSION['logged'])) {
           <input type="submit" class = "my_ads" name = "my_ads" value = "Мои объявления" id = "hello">
           <input type="submit" class = "my_ads" name = "my_ads" value = "Мои отклики">
       </form>
-      <div class = "cards">                         
+      <div class = "cards">
       <?php
         foreach ($params['data']['myAdv'] as $k => $v) {
           $id = $v['id_advertisement'];
@@ -90,16 +90,15 @@ if (empty($_SESSION['logged'])) {
           </div>
           </a>';}
         ?>
-      </div>    
-    </div>  
+      </div>
+    </div>
   </section>
 
   <footer id = "footer">
     <div class="container">
       <div class ="text">
         <p class="mail">Разработчики:<br>
-          sofya-fedorova-2014@mail.ru<br>
-          albert.e.m@mail.ru
+          miha11222211@mail.ru<br>
         </p>
         <p class="mail">
           Объявления.ru — сайт объявлений

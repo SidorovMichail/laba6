@@ -24,8 +24,7 @@
         <div class="container">
             <div class="text">
                 <p class="mail">Разработчики:<br>
-                    sofya-fedorova-2014@mail.ru<br>
-                    albert.e.m@mail.ru
+                    miha11222211@mail.ru<br>
                 </p>
                 <p class="mail">
                     Объявления.ru — сайт объявлений
