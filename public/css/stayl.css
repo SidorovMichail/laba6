@@ -1,0 +1,665 @@
+/*@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');*/
+/*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+
+select {
+    width: 218px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+.upload_form {
+    margin-top: 25px;
+}
+
+.main_input_file {
+    display: none;
+}
+
+.photoDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload_form div {
+    width: 100px;
+    height: 32px;
+    background: #f17d4e;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-family: arial;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.upload_form div:hover {
+    background: #ff9e9e;
+    cursor: pointer;
+}
+
+#f_name {
+    background: transparent;
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    padding: 0 8px;
+    width: 150px;
+}
+
+.publish {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 6px 26px 6px 26px;
+    background: #FFA945;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    letter-spacing: 0.068em;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button:focus {
+    outline: none;
+    background: #E4483E;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button:hover {
+    background: #FF5045;
+}
+
+.colorenter {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+    font-family: Roboto, Verdana, Tahoma, sans;
+    /* Тут можно поэкспериментировать */
+    padding: 12px 16px;
+    border-radius: 100px;
+    color: #fff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.Add {
+    background: #FFA945;
+}
+
+.Add:hover {
+    background: #FF5045;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background: white;
+    letter-spacing: 0.068em;
+}
+
+h1, h2, h3, h5 {
+    position: absolute;
+    width: 1056px;
+    height: 55px;
+    left: 135px;
+    top: 210px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h4 {
+    padding: 0;
+    margin: 0;
+    margin-top: 61px;
+    margin-left: 19px;
+}
+
+h6 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto; /*позиционирование по центру*/
+}
+
+header a {
+    color: black;
+}
+
+.menu {
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+}
+
+.menu li a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.068em;
+}
+
+.menu li {
+    margin-left: 41px;
+    padding-bottom: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+section {
+    padding-bottom: 50px;
+}
+
+.loc {
+    width: 24px;
+    margin-left: 72px;
+    margin-bottom: 18px;
+}
+
+.city {
+    font-size: 14px;
+    margin: 0px;
+    padding-right: 113px;
+    margin-bottom: 12px;
+}
+
+.button2 {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+    position: absolute;
+    padding-left: 26px;
+    padding-top: 8px;
+}
+
+.button3 {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+    position: absolute;
+    width: 229px;
+    height: 19px;
+    left: 171px;
+    top: 368px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.mainbut {
+    position: absolute;
+    width: 285px;
+    height: 55px;
+    left: 135px;
+    top: 350px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0px
+}
+
+.adve {
+    margin-top: 57px;
+    height: 556px;
+    width: 570px;
+    border-radius: 25px;
+}
+
+.description {
+    display: flex;
+}
+
+.Telephone {
+    background: #FF5045;
+    margin-top: 52px;
+    margin-bottom: 26px;
+}
+
+.Respond {
+    background: #FFA945;
+}
+
+span {
+    font-size: 24px;
+}
+
+.InformationBut {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.addOpes {
+    width: 400px;
+    height: 329px;
+    resize: none;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.footer {
+    background: #FFA945;
+}
+
+.listResponders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+td {
+    background: #FEEBD5;
+    color: black;
+    padding-left: 15px;
+}
+
+tr {
+    background: #FFA945;
+    color: white;
+}
+
+.block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-open {
+    background: none;
+    border: none;
+    margin-right: 20px;
+    margin-left: 300px;
+    display: none;
+}
+
+.header .show-menu {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+    width: 50%;
+    padding: 40px 20px 20px 40px;
+}
+
+.header .show-menu li {
+    margin-bottom: 20px;
+}
+
+.addZag {
+    width: 500px;
+    height: 44px;
+}
+
+/*модальное окно*/
+.cross {
+    position: absolute;
+    left: 88%;
+    top: 9%;
+    cursor: pointer;
+}
+
+.cross1 {
+    position: absolute;
+    left: 88%;
+    top: 5%;
+    cursor: pointer;
+}
+
+#blackout {
+    position: absolute;
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+}
+
+#windowEntrance {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 518px;
+    height: 303px;
+    left: 32%;
+    top: 25%;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#windowReg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 530px;
+    height: 578px;
+    left: 30%;
+    top: 3%;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.modalreg {
+    margin-left: 188px;
+}
+
+#blackout:target {
+    display: block;
+}
+
+#blackout2:target {
+    display: block;
+}
+
+.close {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+
+}
+
+.close1 {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+}
+
+.newbut {
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 12px 30px 12px 30px;
+}
+
+input[type="text"] {
+    width: 319px;
+    height: 36px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid #c3c3c3;
+}
+
+input[type="password"] {
+    width: 319px;
+    height: 36px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid #c3c3c3;
+}
+
+input:focus {
+    border-color: red;
+}
+
+.textbox {
+    margin-top: 15px;
+}
+
+.yes {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.hidden-class {
+    overflow: hidden;
+}
+
+/*end*/
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+
+    .information {
+        zoom: 0.9;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 960px;
+    }
+
+    .adve {
+        margin-top: 38px;
+        width: 435px;
+        height: 476px;
+    }
+
+    .InformationBut {
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+    .InformationBut {
+        margin-left: 50px;
+    }
+
+    .adve {
+        width: 400px;
+    }
+
+    .menu {
+        padding-left: 40px;
+        padding-right: 20px;
+        align-items: center;
+    }
+
+    .loc {
+        margin-left: 15px;
+    }
+
+    .listrespondersim {
+        width: 55%;
+    }
+
+    .information {
+        zoom: 0.6;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .information {
+        zoom: 1;
+    }
+
+    .Add {
+        margin-top: 30px;
+    }
+
+    .container {
+        width: 540px;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+
+    .adve {
+        width: 90%;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    button {
+        width: 90%;
+    }
+
+    .InformationBut {
+        margin: 0px;
+    }
+
+    .listrespondersim {
+        width: 95%;
+    }
+
+    .menu-open {
+        display: block;
+    }
+
+    .city, .logo, .enter, .button2, .loc, .menu, .name {
+        display: none;
+    }
+
+    .photoDescription {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        width: 93%;
+        padding: 0 10px;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+
+    .adve {
+        width: 90%;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    button {
+        width: 90% !important;
+    }
+
+    .InformationBut {
+        margin: 0px;
+    }
+
+    .listrespondersim {
+        width: 95%;
+    }
+
+    .menu-open {
+        display: block;
+    }
+
+    .city, .logo, .enter, .button2, .loc, .menu, .name {
+        display: none;
+    }
+
+    .photoDescription {
+        margin-top: 50px;
+    }
+
+    .information {
+        zoom: 0.8;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .information {
+        zoom: 0.6;
+    }
+}
+

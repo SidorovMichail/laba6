@@ -1,0 +1,67 @@
+start:
+  path: /
+  controller: App\Controller\MainController::indexController
+  methods: GET
+
+mainPage:
+  path: /ASvito
+  controller: App\Controller\MainController::indexController
+  methods: GET
+
+addCards:
+  path: /place
+  controller: App\Controller\MainController::place
+  methods: GET
+
+detailCard:
+  path: /card/{id}
+  controller: App\Controller\MainController::card
+  methods: GET
+
+sortCategor:
+  path: /sortCategor
+  controller: App\Controller\MainController::sortCategor
+  methods: GET
+
+add:
+  path: /add
+  controller: App\Controller\AddAbv::add
+
+sortFind:
+  path: /sortFind
+  controller: App\Controller\MainController::sortFind
+  methods: GET
+
+sort:
+  path: /sort
+  controller: App\Controller\MainController::sort
+  methods: GET
+
+exit:
+  path: /exit
+  controller: App\Controller\MainController::exitB
+  methods: GET
+
+entrance:
+  path: /entrance
+  controller: App\Controller\MainController::entrance
+  methods: GET
+
+addUs:
+  path: /addUs
+  controller: App\Controller\AddUser::add
+
+respond:
+  path: /respond/{idAbv}
+  controller: App\Controller\AbvController::respond
+  methods: GET
+
+account:
+  path: /account
+  controller: App\Controller\AccountController::account
+  methods: GET
+
+myrespond:
+  path: /my
+  controller: App\Controller\AccountController::account
+  methods: GET
